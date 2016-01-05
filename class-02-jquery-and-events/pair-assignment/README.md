@@ -6,7 +6,6 @@ The code has unfinished features. Your help is needed to complete it! The blog s
 
 Search through the code for:
 
- `TODO: ...`
 
 comments, where features should be. Replace the comments and any related pseudo-code with real, working code.
 

@@ -22,6 +22,9 @@ address {
   display: inline-block;
 }
 
+li{
+  list-style: none;
+}
 /*LINK STYLES
 =======================================*/
 
