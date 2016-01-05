@@ -12,24 +12,38 @@ hr {
   width: 80%;
 }
 
+header{
+  background-color: #AA5585;
+}
+
+nav{
+  background-color: #D4EE9F;
+}
 /*TEXT STYLES
 =======================================*/
 p {
   font-size: 1em;
 }
 
+h1{
+  color: black;
+}
 address {
   display: inline-block;
+}
+.byline{
+  color: black;
 }
 
 li{
   list-style: none;
+  color: #661141;
 }
 /*LINK STYLES
 =======================================*/
 
 a, a:link, a:active {
-  color: #777;
+  color: #661141;
 }
 
 a:hover, a:focus {
