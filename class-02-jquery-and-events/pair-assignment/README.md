@@ -2,11 +2,10 @@
 
 Work with the provided starter code to add event handling to a basic Blog web site.
 
-The code has unfinished features. Your help is needed to complete it!
+The code has unfinished features. Your help is needed to complete it! The blog should end up looking [something like this](http://hijk.it/image/1C3V1S1r3H1n/Screen%20Shot%202015-11-23%20at%2012.21.45%20PM.png).
 
 Search through the code for:
 
- `// TODO: ...`
 
 comments, where features should be. Replace the comments and any related pseudo-code with real, working code.
 
@@ -22,6 +21,8 @@ The workflow may take a little getting used to, if you haven't done pairing befo
 
 ## Setup your repo
 
+Follow these steps carefully!
+
 Here is a recommended workflow, if you haven't already set up a fork to work from:
 
 1. Driver: fork this repository to your own account, if you haven't already. This original repo (the one at `github.com/codefellows`) is the "upstream" repo.
@@ -34,20 +35,21 @@ Here is a recommended workflow, if you haven't already set up a fork to work fro
 
 ## Write code together
 
-Now find those `TODO` items in the code, and tackle one of them.
+Now duplicate the starter code, find those `TODO` items in the source code, and tackle them.
 
 1. Driver: In your terminal, change directory into the `pair-assignemnt` folder.
-1. Ensure under the `class-02` folder.
+1. Ensure you are under the `class-02` folder.
 1. Copy the starter code folder to a new folder named for your pair:
  - `cp starter-code/ natalie-patrick/`
 1. Now cd into that new folder. This is where you will write code.
-1. Type `atom .` to open the new folder as a project in Atom.
+1. Type `atom .` to open the new folder (your current directory) as a project in Atom.
+1. Take some time to read through the code. There is lots there, and it's dense. Do some code review together.
 1. Use the Atom "Find in Project" feature to locate all the TODO items.
 1. Work through one or two TODO items, testing your code as you go, until you are happy with how it's working.
 
 ## Switch roles
 1. Driver: On GitHub, Add your navigator as a collaborator to your origin repo.
-1. Navigator: You can now clone the driver's fork, to your own local dev environment. Since you are a collaborator, you can `pull` and `push` changes.
+1. Navigator: Do NOT fork this upstream repo! You can directly clone the driver's fork, to your own local dev environment. Since you are a collaborator, you can `pull` and `push` changes.
 1. Switch roles: The navigator now becomes the driver. The new driver now opens the code in Atom (see above), and has hands on the keyboard to work through the next one or two TODO items.
 
 ## Submit your assignment

@@ -19,7 +19,7 @@
       what: "Apples"
     };
     var compile = function(template, expressions) {
-      return appTemplate.replace(/{{([A-Za-z]+)}}/g, swapper);
+      return template.replace(/{{([A-Za-z]+)}}/g, swapper);
       // where
       function swapper(match, capture) {
         return expressions[capture];

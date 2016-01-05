@@ -6,7 +6,7 @@ The code has unfinished features. Your help is needed to complete it!
 
 Search through the code for:
 
- `// TODO: ...`
+ `TODO: ...`
 
 comments, where features should be. Replace the comments and any related pseudo-code with real, working code.
 
@@ -18,9 +18,11 @@ Take a moment to shake hands and introduce yourselves.
 
 You and your pair will have different experience levels, which is normal. You'll have opportunities to both teach and learn from your pair. Keep an open mind, and always be kind.
 
-The workflow may take a little getting used to, if you haven't done pairing before, so give yourself time to work through any git issues (aka: "gituations") that arise.
+The workflow may take a little getting used to, so give yourself time to work through any git issues that arise.
 
 ## Setup your repo
+
+Follow these steps carefully!
 
 Here is a recommended workflow, if you haven't already set up a fork to work from:
 
@@ -37,7 +39,7 @@ Here is a recommended workflow, if you haven't already set up a fork to work fro
 Now find those `TODO` items in the code, and tackle one of them.
 
 1. Driver: In your terminal, change directory into the `pair-assignemnt` folder.
-1. Ensure under the `class-02` folder.
+1. Ensure you are under the `class-03` folder.
 1. Copy the starter code folder to a new folder named for your pair:
  - `cp starter-code/ natalie-patrick/`
 1. Now cd into that new folder. This is where you will write code.
@@ -47,7 +49,7 @@ Now find those `TODO` items in the code, and tackle one of them.
 
 ## Switch roles
 1. Driver: On GitHub, Add your navigator as a collaborator to your origin repo.
-1. Navigator: You can now clone the driver's fork, to your own local dev environment. Since you are a collaborator, you can `pull` and `push` changes.
+1. Navigator: Do NOT fork this upstream repo! You can directly clone the driver's fork, to your own local dev environment. Since you are a collaborator, you can `pull` and `push` changes.
 1. Switch roles: The navigator now becomes the driver. The new driver now opens the code in Atom (see above), and has hands on the keyboard to work through the next one or two TODO items.
 
 ## Submit your assignment

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8"></meta>
+  <title>WebSQL mini-app</title>
+  <link rel="stylesheet" href="base.css">
+</head>
+
+<body>
+  <h1>WebSQL mini-app</h1>
+
+  <p>Edit your SQL command in this text area, then type a <span id="sc">semicolon</span> at the end to cause this web app to send your SQL statement to a local DBMS.</p>
+  <textarea id="cmd" cols="80" rows="12" placeholder="Enter SQL statement">SELECT * FROM articles WHERE author LIKE "%Ursula%"</textarea>
+
+  <table id="dbOut">
+    <tr><th>Author</th> <th>Title</th> <th>Body</th></tr>
+  </table>
+
+  <p id="rmLog">Clear Log</p>
+  <p id="pLog"></p>
+
+  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="http://html5sql.com/js/html5sql.js"></script>
+  <script src="webdb.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
