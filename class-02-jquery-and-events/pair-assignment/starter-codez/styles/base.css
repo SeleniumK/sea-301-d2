@@ -1,6 +1,3 @@
-/* TODO: Add some coordinated colors to make the blog more distinguished:
-         Use an accent color for all links, and remove their underline. */
-
 body {
   line-height: 1.5;
   font-size: 100%;
@@ -17,7 +14,7 @@ header{
 }
 
 nav{
-  background-color: #D4EE9F;
+  background-color: #A9C967;
 }
 /*TEXT STYLES
 =======================================*/

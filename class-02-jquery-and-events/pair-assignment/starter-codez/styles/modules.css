@@ -1,5 +1,6 @@
-/* TODO: Give the site header a nice background color, from your selected color scheme. */
-
+body{
+  background-color: #F3FAE4;
+}
 .site-header {
   padding: .1em;
 }
@@ -22,6 +23,10 @@
 
 #filters {
   padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 #filters select {
