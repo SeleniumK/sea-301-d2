@@ -1,5 +1,8 @@
+# Portfolio assignment for class 2
 
 Continue building and improving your portfolio site. Here's how you can leverage events:
+
+Adapt these stories as necessary to fit how you want to build your portfolio.
 
 ## User Stories: MVP
   1. As the creator, I want the Home and About nav links to act as tabs, so my story is revealed FAST.

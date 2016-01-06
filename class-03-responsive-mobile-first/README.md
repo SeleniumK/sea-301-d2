@@ -1,19 +1,12 @@
-# Assignment for Class 3 - Responsive Design
+# Class 3 - Mobile-First and Responsive Design
 
-Let's develop some responsive super-powers. Follow along with these user stories to make sure your blog looks good on any sized device.
+Let's develop some mobile/responsive super-powers!
 
-## User Stories
- 1. As a reader, I want the primary nav to be responsive, so that I can get around using any device.
- - As a reader, I want the filters to be responsive, so that I can use them easily from any device.
- - As a reader, I want the images to be responsive, so that content stays properly proportioned.
+With a pair, make the blog responsive, so it hides the main navigation menu under a "Hamburger" link on small screens, and unfurls to a row of tab-like links on larger screens.
 
-## Technical Requirements and Grading Rubric
- - Be sure to use proper `viewport` settings.
- - Use mobile-first design principles when adding CSS.
- - Add new styles in media queries as needed to make the page look good on desktop screens.
- - For bonus points, include styles for tablet displays.
+Then, see how you can apply these same ideas in your portfolio!
 
 ## Helpful Resources
  - Shay Howe's Intro: http://learn.shayhowe.com/advanced-html-css/responsive-web-design/
  - Dale Sande's RWD: http://www.anotheruiguy.com/ux-design-dev/_book/rwd/README.html
- - Example responsive hamburger: http://www.sitepoint.com/pure-css-off-screen-navigation-menu/ 
+ - Example extra-fancy responsive hamburger: http://www.sitepoint.com/pure-css-off-screen-navigation-menu/

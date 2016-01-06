@@ -3,26 +3,31 @@
   <head>
     <meta charset="UTF-8">
     <title>Blog</title>
+    <!-- TODO: Add a meta tag to properly set the viewport and initial scale -->
     <link rel="stylesheet" href="vendor/styles/normalize.css">
     <link rel="stylesheet" href="styles/icons.css">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
     <link rel="stylesheet" href="styles/modules.css">
   </head>
   <body>
-    <header class="site-header">
-      <h1>
-        Kilovolt Blog!
-      </h1>
-      <p>The shocking power of static pages</p>
+    <header class="site-header clearfix">
+      <section class="heading-group-h1">
+        <h1>
+          Kilovolt Blog!
+        </h1>
+        <h2>The shocking power of static pages</h2>
+      </section>
+      <nav class="main-nav">
+        <!-- TODO: Add a hamburger menu icon here. -->
+        <ul>
+          <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
+          <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
+          <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
+          <li><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li>
+        </ul>
+      </nav>
     </header>
-    <nav class="main-nav">
-      <ul>
-        <li class="tab icon-home" data-content="articles"><a href="#"> Home</a></li>
-        <li class="tab icon-rocket" data-content="about"><a href="#"> About</a></li>
-        <li class="icon-twitter3"><a href="http://twitter.com/brookr" target="_blank"> Twitter</a></li>
-        <li class="icon-github"><a href="http://github.com/brookr" target="_blank"> GitHub</a></li>
-      </ul>
-    </nav>
     <main>
       <section id="articles" class="tab-content">
         <div>

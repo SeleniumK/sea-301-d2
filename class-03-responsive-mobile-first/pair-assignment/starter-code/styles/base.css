@@ -1,3 +1,9 @@
+/* TODO: Add a rule for images, so they never exceed their container's width. */
+
+img {
+  max-width: 100%;
+}
+
 body {
   line-height: 1.5;
   font-size: 100%;
@@ -9,41 +15,26 @@ hr {
   width: 80%;
 }
 
-header{
-  background-color: #AA5585;
-}
-
-nav{
-  background-color: #A9C967;
-}
 /*TEXT STYLES
 =======================================*/
 p {
   font-size: 1em;
 }
 
-h1{
-  color: black;
-}
 address {
   display: inline-block;
 }
-.byline{
-  color: black;
-}
 
-li{
-  list-style: none;
-  color: #661141;
-}
 /*LINK STYLES
 =======================================*/
 
 a, a:link, a:active {
-  color: #661141;
+  text-decoration: none;
+  color: #777;
 }
 
 a:hover, a:focus {
+  color: #29506D;
 }
 
 a:visited {

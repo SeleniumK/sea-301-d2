@@ -12,11 +12,21 @@ comments, where features should be. Replace the comments and any related pseudo-
 
 Work in pairs. Take turns as "driver" and "navigator".
 
+## TODOs: MVP
+  1. Start by reviewing the existing code. What changed from yesterday? Why did it change?
+  1. Set up the viewport and fluid media rules so content fits on mobile devices.
+  1. Add a "Hamburger" menu button, that reveals the nav links when tapped on a mobile device.
+
+# TODOs: Stretch Goals:
+  1. Use media queries to re-style the header and navigation on desktop-width screens. Nav should be tab-like links on one row.
+
+The usual workflow instructions follow...
+
 ## Getting started with pair programming
 
 Take a moment to shake hands and introduce yourselves.
 
-You and your pair will have different experience levels, which is normal. You'll have opportunities to both teach and learn from your pair. Keep an open mind, and always be kind.
+You and your pair may have different experience levels, which is normal. You'll have opportunities to both teach and learn from your pair. Keep an open mind, and always be kind.
 
 The workflow may take a little getting used to, so give yourself time to work through any git issues that arise.
 
