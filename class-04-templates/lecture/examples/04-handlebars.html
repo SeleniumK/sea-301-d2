@@ -7,21 +7,22 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js" charset="utf-8"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.min.js" charset="utf-8"></script>
 
-  <script id="hello" type="text/x-handlebars-template">
+  <script id="my-message" type="text/x-handlebars-template">
     Hello {{who}}, my name is {{name}}, and I like {{what}}
   </script>
 </head>
 <body>
   <div id="app"></div>
   <script>
-    var data = {
+    var appTemplate = $('#my-message').html()
+    var compiledTemplate = Handlebars.compile(appTemplate);
+    var dataSource = {
       who: "Students",
       name: "Ivan",
+      stuff: "Stuff",
       what: "Apples"
     };
-    var appTemplate = $('#hello').html()
-    var compiledTemplate = Handlebars.compile(appTemplate);
-    var html = compiledTemplate(data);
+    var html = compiledTemplate(dataSource);
     $('#app').append(html);
   </script>
 

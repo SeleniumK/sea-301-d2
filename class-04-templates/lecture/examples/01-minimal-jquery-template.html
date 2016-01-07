@@ -5,7 +5,7 @@
   <title>Minimal jQuery Template</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js" charset="utf-8"></script>
 
-  <script id="hello" type="text/template">
+  <script id="my-message" type="text/template">
     Hello world
   </script>
 </head>
@@ -13,7 +13,9 @@
   <div id="app"></div>
 
   <script>
-    $('#app').append($('#hello').html());
+    $('#app').append($('#my-message').html());
+// Uncomment line below to render another copy of the message in the DOM
+// $('#app').append($('#my-message').html());
   </script>
 
 </body>

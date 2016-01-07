@@ -6,18 +6,13 @@
   <title>Minimal jQuery Template with words</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js" charset="utf-8"></script>
 
-  <script id="hello" type="text/template">
+  <script id="my-message" type="text/template">
     Hello {{who}}, my name is {{name}}, and I like {{what}}
   </script>
 </head>
 <body>
   <div id="app"></div>
   <script>
-    var data = {
-      who: "Students",
-      name: "Ivan",
-      what: "Apples"
-    };
     var compile = function(template, expressions) {
       return template.replace(/{{([A-Za-z]+)}}/g, swapper);
       // where
@@ -25,9 +20,14 @@
         return expressions[capture];
       };
     };
-    var appTemplate = $('#hello').html()
-    var compiledTemplate = compile(appTemplate, data);
-    $('#app').append(compiledTemplate);
+    var dataSource = {
+      who:  "Students",
+      name: "Ivan",
+      what: "Apples"
+    };
+    var appTemplate = $('#my-message').html()
+    var htmlSnippet = compile(appTemplate, dataSource);
+    $('#app').append(htmlSnippet);
   </script>
 
 </body>

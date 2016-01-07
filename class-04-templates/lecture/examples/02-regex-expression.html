@@ -5,24 +5,32 @@
   <meta charset="UTF-8">
   <title>Minimal jQuery Template with Regex</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js" charset="utf-8"></script>
-
-  <script id="hello" type="text/template">
+  <script id="my-message" type="text/template">
     Hello {{0}}, my name is {{1}}, and I like {{2}}
   </script>
+  <!--<p>Hello <strong>{{0}}</strong>, my name is {{1}}, and I like {{2}}</p> -->
 </head>
 <body>
   <div id="app"></div>
   <script>
     var compile = function(template, expressions) {
-      return template.replace(/{{(\d+)}}/g, swapper);
-      // where
       function swapper(match, number) {
         return expressions[number];
       };
+      // Now we use swapper()
+      return template.replace(/{{(\d+)}}/g, swapper); // The sieve
     };
-    var appTemplate = $('#hello').html()
-    var compiledTemplate = compile(appTemplate, ["Students", "Ivan", "Apples"]);
-    $('#app').append(compiledTemplate);
+    var appTemplate = $('#my-message').html();
+    var dataSource  = ["Students", "Ivan", "Apples"];
+    var htmlSnippet = compile(appTemplate, dataSource); // Template & data
+    $('#app').append(htmlSnippet);
+
+ // Uncomment lines below to use the template again. More data fun!
+/*
+    var dataSource  = ["Class", "Al", "Lentils"];
+    var htmlSnippet = compile(appTemplate, dataSource); // Template & data
+    $('#app').append(htmlSnippet);
+*/
   </script>
 
 </body>
