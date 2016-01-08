@@ -1,0 +1,1 @@
+articleView.initNewArticlePage();

@@ -12,4 +12,4 @@ Step into the declarative paradigm.
  - Continue to make good use of SMACSS principles.
  - Do not use the `for` keyword! Use the functional programming methods.
  - Use named functions, attached to an object, rather than number anonymous callbacks.
- - Ensure you find a use for `map`, `reduce`, `forEach`, and optionally `filter`.
+ - Ensure you find a use for `map`, `reduce`, `forEach`, and `filter`.
