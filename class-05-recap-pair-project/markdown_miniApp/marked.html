@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"></meta>
+  <title>Markdown Demo</title>
+</head>
+
+<style>
+.divBlock {
+  display: inline-block;
+  vertical-align: top;
+  width: 48%;
+  padding: 2px;
+  margin: 1px;
+}
+.pCommon {
+  width: 99%; height: 30%;
+  border: 1px solid black;
+  padding: 2px;
+}
+#tBody { font-size: 1em; }
+</style>
+
+<body>
+<h1>Markdown Demo</h1>
+
+<div class="divBlock">
+<h2>Raw markdown w/ content. Edit this!</h2>
+<textarea rows="20" cols="60" id="tBody" class="pCommon pRaw">
+Plain text<br>
+_italics text_
+
+<span style="color:red; padding:2px;">RRR</span>
+<span style="color:green; padding:2px; display:inline-block; border:1px green solid">GGG</span>
+<span style="color:blue; padding:2px">BBB</span>
+# Heading 1
+## Heading 2
+### Heading 3
+
+Unordered list:
+* Protein
+* Fiber
+</textarea>
+</div>
+<div class="divBlock">
+  <h3>Live markdown output (read-only)</h3>
+  <p id="pMarkOut" class="pCommon"></p>
+</div>
+
+<div class="divBlock">
+  <h3>Live raw HTML output (read-only)</h3>
+  <p id="pHrawOut" class="pCommon"></p>
+</div>
+<div class="divBlock">
+  <h3>JSON object (article body only)</h3>
+  <p id="pJson" class="pCommon"></p>
+</div>
+
+<script src="jquery-2.1.4.min.js"></script>
+<script src="marked.min.js"></script>
+<script src="a5_render.js"></script>
+
+</body>
+</html>

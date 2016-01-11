@@ -11,7 +11,7 @@ You should be familiar with the pair flow by now. If not, review previous instru
 1. You may find it useful to attach some additional properties to your article object, before you hand it off to the template.
 
 # TODOs: Stretch Goals
-1. Pick some other part of the blog, and set it up to be rendered from a Handlebars template as well.
+1. Look at all that duplicated markup in your `#filter` list items! Looks like a good opportunity to use a template. Make a small template for filters, and re-render the list once you have data to populate it with.
 
 Find those `TODO` items in the codebase, and tackle each one of them.
 
