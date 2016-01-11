@@ -45,6 +45,8 @@ Article.fetchAll = function() {
       success: function(data, message, xhr){
         var eTag = xhr.getResponseHeader('ETag');
         if(typeof localStorage.articleEtag == 'undefined' || localStorage.articleEtag != eTag){
+          console.log(eTag);
+          console.log(localStorage.articleEtag);
           localStorage.articleEtag = eTag;
           Article.checkUpdates();
         }else{
