@@ -40,7 +40,7 @@ Now duplicate the starter code, find those `TODO` items in the source code, and 
 1. Driver: In your terminal, change directory into the `pair-assignemnt` folder.
 1. Ensure you are under the `class-02` folder.
 1. Copy the starter code folder to a new folder named for your pair:
- - `cp starter-code/ natalie-patrick/`
+ - `cp -r starter-code/ natalie-patrick/`
 1. Now cd into that new folder. This is where you will write code.
 1. Type `atom .` to open the new folder (your current directory) as a project in Atom.
 1. Take some time to read through the code. There is lots there, and it's dense. Do some code review together.
