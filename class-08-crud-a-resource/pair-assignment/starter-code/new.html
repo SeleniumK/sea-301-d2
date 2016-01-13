@@ -67,7 +67,7 @@
         </form>
       </section>
       <section id="articles" class="tab-content">
-        <!-- Preview will load here based on the above template-->
+
       </section>
       <section id="article-export">
         <label id="export-field" for="article-json" class="pull-right">
@@ -84,10 +84,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
     <script src="vendor/scripts/marked.js"></script>
     <script src="vendor/scripts/highlight.pack.js"></script>
-
-    <script src="scripts/util.js"></script>
     <script src="scripts/article.js"></script>
     <script src="scripts/articleView.js"></script>
-    <script src="scripts/new.js"></script>
+    <script>
+      articleView.initNewArticlePage();
+    </script>
   </body>
 </html>

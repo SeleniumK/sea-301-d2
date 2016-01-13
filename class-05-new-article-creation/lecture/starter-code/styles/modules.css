@@ -1,41 +1,10 @@
 .site-header {
-  background-color: #2F8935;
-  color: #FFF;
+  background: #FFEAAA;
 }
 
 .heading-group-h1 {
   float: left;
   padding: 0 0 .2em 1em;
-}
-
-#filters {
-  padding: 0;
-  list-style: none;
-}
-
-#filters select {
-  width: 20em;
-  margin: .2em 0;
-}
-
-.tab-content {
-  display: none;
-}
-
-.template {
-  display: none;
-}
-
-.draft {
-  display: none;
-}
-
-.byline {
-  color: #777;
-}
-
-.byline a {
-  font-weight: bold;
 }
 
 .icon-menu {
@@ -44,11 +13,7 @@
 }
 
 .main-nav {
-  padding: .01em;
-}
-
-.main-nav:hover ul {
-  display: block;
+  padding: 0.1em;
 }
 
 .main-nav ul {
@@ -58,21 +23,33 @@
   clear: both;
 }
 
-.main-nav ul li {
+.main-nav:hover ul {
+  display: block;
+}
+
+.main-nav li {
   margin-right: .4em;
   font-size: 1.5em;
   padding: .5em .2em;
   border-bottom: 1px solid #ccc;
 }
 
-.main-nav a {
-  text-decoration: none;
-  color: #fff;
+#filters {
+  padding: 0;
+  list-style: none;
 }
 
-article {
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 1em;
+.template {
+  display: none;
+}
+
+.byline {
+  color: #777;
+}
+
+.byline a {
+  font-weight: bold;
+  text-decoration: none;
 }
 
 #article-export label {
@@ -86,13 +63,7 @@ article {
     display: none;
   }
 
-  .heading-group-h1 {
-    padding: .1em .1em .1em 2em;
-    float: none;
-  }
-
   .main-nav {
-    background-color: #136819;
     padding: .2em .2em .2em 2em;
   }
 
@@ -106,7 +77,7 @@ article {
   }
 
   .main-nav ul li:hover a {
-    color: #7493A7;
+    color: #29506D;
   }
 
 }

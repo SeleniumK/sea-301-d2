@@ -2,17 +2,23 @@
 
 Now that you have a blog where your articles can be read, let's create a nice interface for writing new articles.
 
-We'll use a special html page, not linked from the main page, that will allow you to write a new article, and export it into the JSON format that the blogging system supports.
+Since the blog is powered by the raw data file, we need a way to create articles, and export the data for insertion into that file.
 
-## This is a paired assignment
-1. Work in pairs. Pick a driver and a navigator to start.
-- Add a new feature to the navigator's repo.
-- Switch off as each major feature is completed.
-- The new driver now implements the same feature on new navigator's repo.
-- Teach each other about what unique approaches you took in your own code base.
+We'll use an HTML form to let authors create new posts in Markdown. We'll show them a live preview as they write, and even throw in syntax highlighting for blocks of code. We'll provide a JSON version of the blog post, which can be copy/pasted into the raw data source file, so the new article will appear on the main blog page.
+
+This will all happen on a special html page, not linked from the main page.
+
+## This is a class-workshop assignment
+1. Look over the existing code, to see what's new, and how it is set up.
+1. An instructor will live-code a section of the app.
+  - Watch and follow the concepts.
+  - Don't try to keep up.
+- After each section, you'll have a chance to implement a solution yourself. Find the starter code in the `lecture/` folder.
+- Try things out, and teach each other about what unique approaches you took in your own code base.
+- Submit your work, and any personalizations you'd like to include.
 
 ## User Stories: MVP
- - As an author, I want a secret URL where I can go write articles, so that blog visitors don't think they can create posts.
+ - As an author, I want a secret URL (new.html) where I can go write articles, so that blog visitors don't think they can create posts.
  - As an author, I want a form fields for all the article properties, so that I can customize each aspect of my article.
  - As an author, I want to write in Markdown, so that I can easily control formatting.
  - As an author, I want an export of the final article, so that I can paste it into blogArticles.js to publish it.
@@ -22,7 +28,6 @@ We'll use a special html page, not linked from the main page, that will allow yo
  - As an author, I want code samples to have syntax highlighting, so that my readers see code as it should appear.
 
 ## Technical Requirements and Grading Rubric
- - Keep your CSS code organized according to SMACSS.
  - Ensure your code passes ESLint.
  - Continue to use mobile-first development practices.
  - Verify that your exported data can be copy/pasted into `blogArticles.js` to be published.

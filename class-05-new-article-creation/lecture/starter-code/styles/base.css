@@ -1,17 +1,35 @@
+img {
+  max-width: 100%;
+}
+
+body {
+  line-height: 1.5;
+  font-size: 100%;
+  color: #313131;
+}
+
 main {
   margin: auto;
   width: 90%;
+}
+
+hr {
+  margin: 1em;
+  width: 80%;
+}
+
+/*TEXT STYLES
+=======================================*/
+p {
+  font-size: 1em;
 }
 
 address {
   display: inline-block;
 }
 
-hr {
-  margin: 1em;
-  width: 80%;
-  border-color: #fff;
-}
+/*LINK STYLES
+=======================================*/
 
 a, a:link, a:active {
   text-decoration: none;
@@ -25,6 +43,8 @@ a:hover, a:focus {
 a:visited {
 }
 
+/*FORM STYLES
+=======================================*/
 label {
   font-size: 3em;
 }
@@ -57,8 +77,4 @@ input:invalid, textarea:invalid {
 
 input:valid, textarea:valid {
   border-color: #89CB8E;
-}
-
-footer {
-  margin-top: 3em;
 }

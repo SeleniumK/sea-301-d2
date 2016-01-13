@@ -35,16 +35,13 @@ webDB.connect = function (database, title, size) {
   html5sql.openDatabase(database, title, size);
 };
 
-webDB.setupTables = function () {
-  html5sql.process(
-//  'CREATE TABLE IF NOT EXISTS articles (id INTEGER PRIMARY KEY, title VARCHAR(255) NOT NULL, author VARCHAR(255) NOT NULL, body TEXT NOT NULL);',
-    'CREATE TABLE IF NOT EXISTS articles (title VARCHAR(255) NOT NULL, author VARCHAR(255) NOT NULL, body TEXT NOT NULL);',
-        function() {
-      // on success
-      console.log('Success setting up tables.');
-    }
-  );
-};
+webDB.runSQLcmd = function(cmd) {
+  webDB.execute( cmd,
+                 function(response) {
+                   mylog('<hr>'+cmd+"<br>"+JSON.stringify(response));
+                 }
+               );
+}
 
 webDB.execute = function (sql, callback) {
   callback = callback || function() {};

@@ -80,12 +80,14 @@
     <script src="/vendor/scripts/jquery-2.1.4.js"></script>
     <script src="/vendor/scripts/handlebars.js"></script>
     <script src="/vendor/scripts/marked.js"></script>
+    <!-- TODO: Include the script files we need, that give us an API to the WebSQL feature of Chrome: -->
+
     <script src="/scripts/article.js"></script>
     <script src="/scripts/articleView.js"></script>
     <script>
-      // TODO: The fetchAll method call now requires a callback parameter.
-      // What do we want to run WHEN the fetch is done?
-      Article.fetchAll(); // Add an argument to the function call.
+      // DONE: Ensure that a database table for articles exists, every time we load the page.
+      Article.createTable();
+      Article.fetchAll(articleView.initIndexPage);
     </script>
   </body>
 </html>
