@@ -21,7 +21,7 @@
      Writes sequence of integers on the board, starting at 1, and count up.
      Write a new num. every 2 secs and read aloud the 'Generous person'. If it's
      blank, yell ["blank", "undefined", or "error" depending on global var below.]
-     Stops writing when Writer takes marker, then read aloud the 'Generous person'.
+     Stops writing when Writer takes marker.
 
    Helper takes at least 10 seconds to get gift from post office.
 */
