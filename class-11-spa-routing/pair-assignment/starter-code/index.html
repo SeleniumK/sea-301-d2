@@ -76,23 +76,18 @@
     <footer>
       &copy; 2015 Code Fellows | Static Blog | Happy Ipsum!
     </footer>
-    <!-- TODO: Be sure to include the routing functionality with the correct script files.
-        Don't forget your controllers! Ensure the load order satisfies any dependencies: -->
 
-    <script src="/vendor/scripts/jquery-2.1.4.js"></script>
-    <script src="/vendor/scripts/handlebars.js"></script>
-    <script src="/vendor/scripts/marked.js"></script>
-    <script src="/vendor/scripts/html5sql.js"></script>
-    <script src="/scripts/webdb.js"></script>
-
-    <script src="/scripts/article.js"></script>
-    <script src="/scripts/articleView.js"></script>
-
-    <script>
-    /* TODO: Delete, replace, or move this code?
-             What do you need to do in articleController.js? */
-      Article.createTable();
-      Article.fetchAll(articleView.initIndexPage);
-    </script>
+    <script src="vendor/scripts/jquery-2.1.4.js"></script>
+    <script src="vendor/scripts/handlebars.js"></script>
+    <script src="vendor/scripts/marked.js"></script>
+    <script src="vendor/scripts/html5sql.js"></script>
+    <script src="scripts/webdb.js"></script>
+    <script src="vendor/scripts/page.js"></script>
+    <script src="scripts/articleController.js"></script>
+    <script src="scripts/aboutController.js"></script>
+    <script src="scripts/article.js"></script>
+    <script src="scripts/articleView.js"></script>
+    <script src="scripts/routes.js"></script>
+    
   </body>
 </html>
