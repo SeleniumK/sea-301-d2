@@ -1,4 +1,4 @@
-## Past Code Fellows Student Projects
+## Past Code Fellows 201 Student Projects
 
 - https://github.com/Trivia-Crossroads/triviacrossroads
 - https://github.com/wohlfea/cup-game

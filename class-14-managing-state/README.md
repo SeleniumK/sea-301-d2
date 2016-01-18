@@ -16,3 +16,11 @@ Where does did our UI management logic go?? It's time to turn filters back on. B
  - Filters should now work with the browser's back/forward buttons.
  - DRY code by using Page.js middleware: chain calls that handle routes where appropriate.
  - Pipeline object transformations with `.map` where appropriate.
+
+## Class videos
+ - [Part 1 of 4]()
+ - [Part 2 of 4]()
+ - [Part 3 of 4]()
+ - [Part 4 of 4]()
+
+## Helpful Resources

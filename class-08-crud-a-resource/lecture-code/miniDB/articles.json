@@ -1,1 +1,11 @@
-[{"title":"Ender's Game","author":"Orson Scott Card","body":"Enter was a young boy when he was recruited into a military organization. Ender is a morphed version of 'Andrew'. Ender saves the world."},{"title":"The Left Hand of Darkness","author":"Ursula K. Le Guin","body":"This novel won both Hugo and Nebula awards in the same year."}]
+[
+ {"title":"Elementary Analysis: The Theory of Calculus",
+  "author":"Kenneth A. Ross",
+  "body":"Mathematics text that provides a rigorous treatment of real analysis. Improper integrals are covered, and even Dedikind cuts are mentioned."},
+ {"title":"Ender's Game",
+  "author":"Orson Scott Card",
+  "body":"Ender was a young boy when he was recruited into a military organization. Ender is a mis-pronounced version of 'Andrew'. Ender saves the world."},
+ {"title":"The Left Hand of Darkness",
+  "author":"Ursula K. Le Guin",
+  "body":"This novel won both Hugo and Nebula awards in the same year."}
+]

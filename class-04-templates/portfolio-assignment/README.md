@@ -1,4 +1,4 @@
-# Assignment for Class 4 - Templates and SMACSS
+# Portfolio Assignment for Class 4 - Templates and Typography
 
 Use what you learned in the class 4 lecture to improve the structure of your Portfolio app codebase.
 
