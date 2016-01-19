@@ -1,4 +1,6 @@
-# Assignment for Class 13 -  Production Deployment
+# Pair and Individual Coding Assignments for Class 13 - Production Deployment
+
+#### NOTE: This assignment applies to both the pair coding (blog) and the individual (portfoloio) assignments for Class 13.
 
 Ready to share what you've made with the world? Yes!
 

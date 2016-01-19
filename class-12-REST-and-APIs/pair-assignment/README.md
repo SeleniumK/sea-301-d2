@@ -7,7 +7,7 @@ Now that we understand how applications can handle different URLs, we can write 
   - You already have an `aboutController.js`,
   - so we need to add a `repo.js` model file,
   - and a `repoView.js` presentation layer.
-  - GitHub API credentials should be stored in a local file (`githubToken.js`), but not committed to GitHub.
+  - GitHub API credentials should be stored in a local file (`githubToken.js`), but not committed to GitHub. Use .gitignore to block commits (get help in lab if you don't know how to use .gitignore).
  - As the site owner, I want to highlight certain repos on my `/about` page so that everyone can see the great projects I am working on.
   - Retrieve and manipulate repo info in your model file.
   - You can choose exactly what API end point to use.
